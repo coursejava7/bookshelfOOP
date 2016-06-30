@@ -1,8 +1,8 @@
 package bookshelf;
 
 public class BadIsbnNumberException extends Exception {
-	
-	public BadIsbnNumberException(BadIsbnNumberError error) {
+
+	public BadIsbnNumberException(BadIsbnNumberErrorType error) {
 		super(error.getMessage());
 	}
 }
